@@ -1,6 +1,119 @@
 html {
   box-sizing: border-box;
+color: white;
+    font-family: 'Bangers', cursive;
+
+font-size: 18px;
+font-size: 1.5em;
+font-weight: 700;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+
+body{
+margin: 0;   
+background: #333;
+}
+
+
+@media (min-width: 1px) and (max-width: 767px){
+header img{
+    height: 60%;
+    width: 90%;
+    
+}
+
+nav ul{
+    list-style: none;
+    border-bottom: 3px solid black;
+    height: 100px;
+    text-align: center;
+    
+}
+nav ul li{
+        background: red;
+
+    display: block;
+    text-align: center;
+    border: solid 2px black;
+    padding: 1.2 em;
+}
+}
+@media (min-width: 758px){
+
+/*============Hero==============*/    
+
+.hero section{
+    background: url(../Img/Hawke.jpg) no-repeat center;
+background-size: cover;
+    height: 425px;
+
+}
+
+/*=======Navigation==============*/
+nav ul{
+    
+    background-color: #ee3635;
+    list-style: none;
+   box-shadow: 8px 7px #aaa;
+    height: 80px;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 96%;
+    
+
+}
+nav ul li{
+    float: left;
+    Padding: 27px 20px 5px 20px;
+    
+}
+    nav ul li:first-child{
+        padding-left: 600px;
+    }
+li a:link{
+    color:white;
+    text-decoration: none;
+}
+li a:visited{
+    color:white;
+}
+li a:hover{
+        text-shadow: 5px 3px #35b0e6;
+}
+
+}
+/*===============Content============*/
+article img{
+    
+    height: auto;
+    width: auto;
+}
+article {
+    display: inline-block;
+    
+}
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    background: #4d4d4d;
+    z-index: 10;
+}
+.wrapper h1{
+    margin-bottom: 0;
+}
+.secondary-content{
+    
+    margin: 0 auto;
+}
+/*================Footer=============*/
+footer{
+height: 30px;
+background:#222;
+    text-align: center;
+    font-size:  .5em;
+    padding-top: 10px;
+}
+h4{
+    margin:0;
 }
