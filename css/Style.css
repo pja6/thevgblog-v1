@@ -1,11 +1,9 @@
 html {
-  box-sizing: border-box;
+box-sizing: border-box;
 color: white;
-    font-family: 'Bangers', cursive;
-
+font-family: 'Bangers', cursive;
 font-size: 18px;
 font-size: 1.5em;
-font-weight: 700;
 }
 
 
@@ -15,96 +13,141 @@ background: #333;
 }
 
 
-@media (min-width: 1px) and (max-width: 767px){
-header img{
-    height: 60%;
-    width: 90%;
-    
-}
+@media (min-width: 1px) and (max-width: 799px){
+    header img{
+        height: 60%;
+        width: 90%;
+        margin-left: 5%;
 
-nav ul{
-    list-style: none;
-    border-bottom: 3px solid black;
-    height: 100px;
-    text-align: center;
-    
-}
-nav ul li{
-        background: red;
-
-    display: block;
-    text-align: center;
-    border: solid 2px black;
-    padding: 1.2 em;
-}
-}
-@media (min-width: 758px){
-
-/*============Hero==============*/    
-
-.hero section{
-    background: url(../Img/Hawke.jpg) no-repeat center;
-background-size: cover;
-    height: 425px;
-
-}
-
-/*=======Navigation==============*/
-nav ul{
-    
-    background-color: #ee3635;
-    list-style: none;
-   box-shadow: 8px 7px #aaa;
-    height: 80px;
-    margin: 0;
-    font-size: 30px;
-    margin-bottom: 10px;
-    width: 96%;
-    
-
-}
-nav ul li{
-    float: left;
-    Padding: 27px 20px 5px 20px;
-    
-}
-    nav ul li:first-child{
-        padding-left: 600px;
     }
-li a:link{
-    color:white;
-    text-decoration: none;
-}
-li a:visited{
-    color:white;
-}
-li a:hover{
-        text-shadow: 5px 3px #35b0e6;
+    /*=============Navigation+==========*/
+        nav{
+            padding-right: 9%;
+            
+        }
+    nav ul{
+        list-style: none;
+        height: 100px;
+
+    }
+    nav ul li{
+        background: #ee3635;
+        display: block;
+        text-align: center;
+        box-shadow: 8px 7px #aaa;
+        margin-bottom: 3%;
+        padding: 1.2 em;
+    }
+        li a:link{
+        color:white;
+        text-decoration: none;
+    }
+    li a:visited{
+        color:white;
+    }
+    li a:hover{
+            text-shadow: 10px 3px #35b0e6;
+    }
+/*==============Content===============*/
+    .wrapper h2:first-child{
+        margin:10% 0 -1% 5%;
+        
+    }
+    .wrapper img{
+        margin-left: 5%;
+        width: 90%;
+        height: auto;
+        box-shadow: 5px 5px #4d4d4d;
+        border-top: 5px solid #aaa;
+
+        
+    }
+     article p{
+        font-size: 18px;
+        font-family: "Rockwell", serif;
+        padding: 2%;
+        margin:0 5%;
+
+    }
+    .sidebar{     
+        margin-left: 25%;
+    }
 }
 
-}
-/*===============Content============*/
-article img{
-    
-    height: auto;
-    width: auto;
-}
-article {
-    display: inline-block;
-    
-}
-.wrapper {
-    margin: 0 auto;
-    width: 90%;
-    background: #4d4d4d;
-    z-index: 10;
-}
-.wrapper h1{
-    margin-bottom: 0;
-}
-.secondary-content{
-    
-    margin: 0 auto;
+@media (min-width: 800px){
+
+    /*============Hero==============*/    
+
+    .hero section{
+    background: url(../Img/Hawke.jpg) no-repeat center;
+    background-size: cover;
+        height: 425px;
+
+    }
+        .hero:first-child{
+            height: 100%;
+        }
+
+    /*=======Navigation==============*/
+    nav ul{
+
+        background-color: #ee3635;
+        list-style: none;
+       box-shadow: 8px 7px #aaa;
+        height: 80px;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+        width: 96%;
+
+
+    }
+    nav ul li{
+        float: left;
+        Padding: 27px 20px 5px 20px;
+
+    }
+
+    li a:link{
+        color:white;
+        text-decoration: none;
+    }
+    li a:visited{
+        color:white;
+    }
+    li a:hover{
+            text-shadow: 5px 3px #35b0e6;
+    }
+
+    /*===============Content============*/
+
+    .wrapper {
+        margin: 0 auto;
+        width: 90%;
+        background: #4d4d4d;
+        z-index: 10;
+    }
+    .wrapper h2{
+        margin-bottom: 0;
+    }
+    .wrapper img{
+    }
+    .secondary-content{
+
+        margin: 0 auto;
+        padding: 0;
+    }
+    article img{
+
+        width: 100%;
+
+        border-top: 10px solid #35b0e6;
+        margin-top:
+    }
+    article p{
+        font-size: 18px;
+        font-family: "Rockwell", serif;
+    }
 }
 /*================Footer=============*/
 footer{
@@ -114,6 +157,6 @@ background:#222;
     font-size:  .5em;
     padding-top: 10px;
 }
-h4{
+footer h4{
     margin:0;
 }
