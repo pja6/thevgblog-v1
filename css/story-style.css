@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    font-size: 1.5em;
+font-family: 'Righteous', cursive;
+
+}
+p{
+    font-family: Rockwell;
+    line-height: 1.3em;
+}
+
+body{
+margin: 0;   
+background: #333;
+}
+h1{
+    margin-bottom:0;
+}
+h3{ margin-top:0;
+    text-align: right
+}
+/*=============Navigation+==========*/
+        nav{
+            padding-right: 9%;
+            
+        }
+    nav ul{
+        list-style: none;
+        height: 100px;
+
+    }
+    nav ul li{
+        background: #ee3635;
+        display: block;
+        text-align: center;
+        box-shadow: 8px 7px #aaa;
+        margin-bottom: 3%;
+        padding: 1.2 em;
+        }
+        li a:link{
+        color:white;
+        text-decoration: none;
+        display: block;
+    }
+    li a:visited{
+        color:white;
+    }
+    li a:hover{
+            text-shadow: 5px 3px #35b0e6;
+    }
+/*===============Content=============*/
+.title{
+    display:inline-block;
+}
+/*================Footer=============*/
+footer{
+height: 30px;
+background:#222;
+    text-align: center;
+    font-size:  .5em;
+    padding-top: 10px;
+}
+footer h4{
+    margin:0;
+}
+@media screen and (min-width: 900px){
+ 
+    /*=======Navigation==============*/
+    nav ul{
+
+        background-color: #ee3635;
+        list-style: none;
+       box-shadow: 8px 7px #aaa;
+        height: 80px;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+        width: 109%;
+
+
+    }
+    nav ul li{
+        float: left;
+        Padding: 27px 20px 5px 20px;
+        box-shadow:none;
+        margin-bottom: 0;
+
+
+    }
+    nav ul li img{
+        width: 30%;
+        margin-top: -10px;
+        margin-left: -0px;
+        display: inline;
+    }
+
+    li a:link{
+        color:white;
+        text-decoration: none;
+    }
+    li a:visited{
+        color:white;
+    }
+    li a:hover{
+            text-shadow: 5px 3px #35b0e6;
+    }
+/*==============Content============*/
+    article p{
+        float: right;
+    }
+/*==============Sidebar============*/
+    .sidebar{
+        
+    }
+    .sidebar img{
+        width: 100%;
+    }
+    .sidebar ul{
+        list-style: none;
+    }
+    .sidebar ul li{
+        padding-bottom: 5%;
+        
+    }
+}
